@@ -13,9 +13,9 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Q Hello, world!")
-                .font(Font.custom("Telugu MN", size: 48))
-            Text("Q Hello, world!")
+            Text("Q Hello, Telugu MN!")
+                .font(Font.custom("Telugu MN", size: 38))
+            Text("Q Hello, system!")
                 .font(.system(size: 54))
         }
         .padding()
